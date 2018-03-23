@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html ng-app="appModulo" class="no-js">
+<head>
+<meta charset="utf-8">
+  <title>Lilihome</title>
+
+  <base href="/" />
+
+  <!-- Tag Meta Config SEO-->
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Moveis">
+  <meta property="og:url" content="https://lilibox.com.br">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content=""/>
+  <meta property="og:image" content="https://lilibox.com.br/assets/images/logogrande.png" />
+  <meta property="fb:app_id" content="1373521895995628" />
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="Mon, 22 Jul 2002 11:12:01 GMT">
+  <!-- End Tag Meta Config SEO-->
+  
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  
+  <!-- Tag reference bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.4/angular-material.min.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--Tag reference bootstrap -->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
+  
+  <!-- Begin tags reference -->
+
+  <!-- Tags Reference Angular JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-animate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-cookies.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.4/angular-material.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-aria.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-route.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-sanitize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-resource.min.js"></script>
+  <script scr="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-touch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-messages.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- End Tags Reference Angular JS -->
+  
+  <!-- Reference scripts config -->
+  <script src="scripts/config/interceptor.js"></script>
+  <script src="scripts/config/routes.js"></script>
+  <script src="scripts/config/util.config.js"></script>
+  <!-- End Reference scripts config-->
+
+  <!-- Reference scripts utils -->
+  <script src="scripts/utils/filters.js"></script>
+  <!-- End Reference scripts utils -->
+  
+  <link rel="stylesheet" type="text/css" href="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/css/style.css"></script> 
+  
+  
+</head>
+
+<body id="bodySite" masonry-card>  
+  
+  <!-- Estrutura da homepage -->
+  <!-- Tag de aplicação --> 
+  <div id="page" class="site">
+    <!-- Application content -->
+    <div id="wrap" ui-view autoscroll="false"></div>
+  </div>
+  <!-- Tag de aplicação --> 
+  <!-- Bloco de código do Header -->
+  <header>
+  
+      <!-- Bloco de código de nav com menu -->
+      <nav class="navbar navbar-default navBack">
+        <div class="container-fluid">
+        <div class="navbar-header col-md-2">
+           <a class="navbar-brand" href="#"></a>
+        </div>
+        
+          <ul class="nav navbar-nav">
+            
+            <li><a href="#"><img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/LOGO_lilihome.png"></a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal1">MÓVEIS</a></li>
+            <li><a href="#">ILUMINAÇÃO</a></li>
+            <li><a href="#">TÊXTIL</a></li>
+            <li><a href="#">DECORAÇÃO</a></li>
+            <li><a href="#">MARCAS</a></li>
+            <li><a href="#">ON SALE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">FAÇA LOGIN | </a></li>
+            <li><a href="#"> CADASTRE-SE</a></li>
+            <li><a href="#"></a></li>
+         </ul>          
+        </div>
+        <br>
+        
+          <div class="col-md-2"></div> 
+          <div class="form-group">
+          <ul class="nav navbar-nav">
+            <li class="navbar-brand"><input type="text" class="form-control input1" placeholder="O QUE VOCÊ PROCURA?" size="140"></li>
+            <li><img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/ICON_busca.png"></li>
+          </ul> 
+          </div>
+          </div> 
+        </div>
+        <br>
+               
+        <!-- Bloco de código do Modal do menu -->
+          <div class="modal fade" id="myModal1" role="dialog">
+          <div class="modal-dialog modal-lg">
+    
+	      <!-- Modal content-->
+	      <!-- Bloco de código de cabeçalho do Modal do menu -->
+	      <div class="modal-content">
+	        <div class="row">
+	      
+	          <div class="col-md-3">	          
+	            <h4 class="modal-title title modalHeader1"><a href="#">Área Externa</a></h4>	
+	          </div>
+	        
+	          <div class="col-md-3">
+	            <h4 class="modal-title title modalHeader2"><a href="#">Sala de Estar</a></h4>	          	           
+	          </div>
+	        
+	          <div class="col-md-3">	          
+	            <h4 class="modal-title title modalHeader2"><a href="#">Escritório</a></h4>	
+	          </div>
+	        
+	          <div class="col-md-3">
+	            <h4 class="modal-title title modalHeader2"><a href="#">Sala de Jantar</a></h4>	          	           
+	          </div>
+	        
+	        </div>
+	        <!-- Bloco de código de cabeçalho do Modal do menu -->
+	        
+	        <!-- Bloco de código de links do Modal do menu -->
+	        <div class="row">
+	        <div class="modal-body modalBody col-md-3">
+	          <p><a href="#" class="a:link">Cadeiras</a></p>
+	          <p><a href="#">Poltronas</a></p>
+	          <p><a href="#">Mesas</a></p>
+	          <p><a href="#">Banquetas</a></p>
+	        </div>
+	        
+	        <div class="modal-body col-md-3">
+	          <p><a href="#">Estofados</a></p>
+	          <p><a href="#">Estofados em Couro</a></p>
+	          <p><a href="#">Aparadores</a></p>
+	          <p><a href="#">Cadeiras</a></p>
+	          <p><a href="#">Chaises</a></p>
+	          <p><a href="#">Estantes</a></p>
+	          <p><a href="#">Racks</a></p>
+	          <p><a href="#">Painéis</a></p>
+	          <p><a href="#">Cristaleiras</a></p>
+	        </div>
+	        
+	        <div class="modal-body col-md-3">
+	          <p><a href="#">Cadeiras</a></p>
+	          <p><a href="#">Poltronas</a></p>
+	          <p><a href="#">Mesas</a></p>
+	          <p><a href="#">Cozinha</a></p>
+	          <p><a href="#">Banquetas</a></p>	          
+	        </div>
+	        
+	        <div class="modal-body col-md-2">
+	          <p><a href="#">Mesas de Centro</a></p>
+	          <p><a href="#">Mesas Laterais</a></p>       
+	        </div>
+	        
+	        <div class="modal-body col-md-2">
+	          <p class="title"><a href="#">Dormitórios</a></p>
+	          <p><a href="#">Armários</a></p>
+	          <p><a href="#">Cômodas</a></p>       
+	        </div>	        
+	        
+	        </div>
+	        <!-- Bloco de código de links do Modal do menu -->
+	        
+	      </div>
+	      <!-- Bloco de código do Modal do menu -->
+      </nav>
+      <!-- Bloco de código de nav com menu -->
+  </header>
+  <!-- Fim do Bloco de código do Header -->  
+  
+  <!-- Bloco de código da Section -->
+  <section>
+  
+  <!-- Bloco de código do carrousel -->
+  <div class="container col-md-12">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- Bloco de código de inserção de imagens dos banners -->
+  <!-- Wrapper for slides -->
+  <div class="container">
+    <div class="carousel-inner">
+     <div class="item active">
+       <img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/alvorada-poltrona-fabricio-roncca.jpg" alt="Poltrona Fabrício Roncca">
+     </div>
+
+     <div class="item">
+       <img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/aero-salajantar-brunofaucz.jpg" alt="Sala de Jantar Bruno Faucz">
+     </div>
+
+     <div class="item">
+       <img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/belle-poltrona-danielaferro.jpg" alt="Poltrona Daniela Ferro">
+     </div>
+    </div>  
+  </div>
+  <!-- Bloco de código de inserção de imagens dos banners -->
+  
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+    </div>
+  </div>  
+   
+  <!-- Bloco de código do carrousel de destaques --> 
+  <div class="jumbotron col-md-12">    
+      <div class="container">
+        <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div><h3>Destaques</h3></div> 
+              <div class="text">Lorem ipsum ultrices congue dolor id curae arcu felis, justo hac inceptos risus dolor</div>
+              <br>     
+	        <div class="container">
+		      
+		    </div>	
+		 </div>
+		 <div class="col-md-2"></div>		
+   	 </div>	
+  </div>
+  <!-- Bloco de código do carrousel de destaques --> 
+  
+  <!-- Bloco de código da galeria de destaques -->
+  <div class="col-md-3"></div>
+  <div class="container col-md-3">
+    <img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/aero-salajantar-brunofaucz.jpg" alt="Aero salajantar" style="width:80%">
+    <button type="button" class="btn">VEJA NOSSOS RACKS</button>
+  </div>
+  
+  <div class="container col-md-3">
+    <img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/aqua-sofa-retratil.jpg" alt="Aqua-sofa-retratil" style="width:70%">
+    <button type="button" class="btn">VEJA NOSSAS MESAS DE CENTRO</button>
+  </div>
+  <div class="col-md-3"></div>
+  <!-- Bloco de código da galeria de destaques -->  
+  
+  <!-- Bloco de código do carrousel de lançamentos --> 
+  <div class="jumbotron col-md-12">    
+      <div class="container">
+        <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div><h3>Lançamentos</h3></div> 
+              <div class="text">Lorem ipsum ultrices congue dolor id curae arcu felis, justo hac inceptos risus dolor</div>
+              <br>     
+	        <div class="container">
+		      
+		    </div>	
+		 </div>
+		 <div class="col-md-2"></div>		
+   	 </div>	
+  </div>
+  <!-- Bloco de código do carrousel de lançamentos --> 
+  
+  <!-- Bloco de código da galeria de lançamentos -->
+  <div class="col-md-3"></div>
+  <div class="container col-md-3">
+    <img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/aero-salajantar-brunofaucz.jpg" alt="Aero salajantar" style="width:80%">
+    <button type="button" class="btn">VEJA NOSSOS RACKS</button>
+  </div>
+  
+  <div class="container col-md-3">
+    <img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/aqua-sofa-retratil.jpg" alt="Aqua-sofa-retratil" style="width:70%">
+    <button type="button" class="btn">VEJA NOSSAS MESAS DE CENTRO</button>
+  </div>
+  <div class="col-md-3"></div>
+  <!-- Bloco de código da galeria de lançamentos -->
+  
+  <!-- Bloco de código do carrousel de recomendados --> 
+  <div class="jumbotron col-md-12">    
+      <div class="container">
+        <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div><h3>Recomendados</h3></div> 
+              <div class="text">Lorem ipsum ultrices congue dolor id curae arcu felis, justo hac inceptos risus dolor</div>
+              <br>     
+	        <div class="container">
+		      
+		    </div>	
+		 </div>
+		 <div class="col-md-2"></div>		
+   	 </div>	
+  </div>
+  <!-- Bloco de código do carrousel de recomendados -->
+  
+  <!-- Bloco de código da seção inspire-se --> 
+     <div class="col-md-2"></div>
+       <div class="container col-md-8">          
+          <div><h3>Inspire-se</h3></div> 
+             <div class="text">Lorem ipsum ultrices congue dolor id curae arcu felis, justo hac inceptos risus dolor</div>
+               <br>     
+	         <div class="container">
+		       <div><p class="titleSecao1">A SALA DE ESTAR DE SEUS SONHOS</p></div>		      
+		     </div>		     	 	
+   	  </div>   	 
+     <div class="col-md-2"></div>  
+        
+       <div class="col-md-3"></div>
+         <div class="container col-md-7">
+		   <img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/aero-salajantar-brunofaucz.jpg" alt="Aero salajantar" style="width:80%">
+         </div>     
+     <div class="col-md-2"></div>   
+          
+     
+     <div class="col-md-3"></div>
+         <div class="container col-md-7">
+           <div class="container col-md-10">
+	         <div><p class="titleSecao1">A COZINHA QUE VOCÊ SEMPRE QUIS</p></div>		      
+           </div>                    
+		   <img src="///home/alan/Workspaces/workspace_lilihome/WebContent/ecommerce/app/images/belle-poltrona-danielaferro.jpg" alt="Belle Poltrona" style="width:80%">
+         </div>     
+     <div class="col-md-2"></div>
+  <!-- Bloco de código da seção inspire-se -->  
+  
+   
+  </section>
+  <!-- Bloco de código da Section -->
+    
+  <footer>
+  
+  </footer>
+
+  <!-- Estrutura da homepage -->
+  
+</body>
+</html>

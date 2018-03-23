@@ -1,0 +1,111 @@
+.input1 {
+   border: none;
+   box-shadow: 0 0 0 0; 
+   -webkit-box-shadow: none;  
+   outline: 0;
+   font-style: italic;
+   font-size: 16px;
+   color: #4c4b4b;
+}
+
+.navBack{
+	background: #fff;
+} 
+
+.title{
+	font-weight: bold;
+	font-family: antonio;
+}
+
+.categorias{
+	font-weight: normal;
+	font-family: antonio;
+	font-family: Open sans;
+	font-style: normal;
+	color: #9e9e9e;
+}
+
+.titleMateria{
+	font-weight: bold;
+	font-family: antonio;
+	font-size: 30px;
+	font-style: normal;
+}
+
+.modalHeader1{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.modalHeader2{
+	margin-top: 30px;
+}
+
+.modalBody{
+	margin-left: 30px;
+}
+
+.backContainer{
+	background: #eeeeec;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.titleSecao1 {
+    text-align: center;
+    font-family: Open sans;
+    font-size: 30px;
+}
+
+.text{
+	font-size: 14px;
+	text-align: center;
+	font-family: Open sans;
+	font-style: normal;
+	color: #7a7a7a;
+}
+
+.container img {
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    margin-right:10px;
+    margin-bottom:30px;
+}
+
+.container secao1Img {
+    width: auto;
+    height: auto;
+    margin:auto;
+    padding-left: 100px;
+    position: relative;
+}
+
+.container .btn {
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 10px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: #babdb6;
+    color: white;
+}
+
+.imgLogo{
+	width: 50%;
+    height: auto;
+}
