@@ -50,22 +50,37 @@
 }
 
 h3 {
+    color: #444444;	
+    font-family: Antonio;	
+    font-size: 24px;
     text-align: center;
-    font-weight: bold;
+    line-height: 80px;
+    font-weight: bold;    
 }
+
+.titleCarrousel {
+	color: #444444;	
+	font-family: Antonio;	
+	font-size: 24px;	
+	font-weight: bold;	
+	line-height: 80px;	
+	text-align: center;}
 
 .titleSecao1 {
     text-align: center;
-    font-family: Open sans;
+    font-family: "Open Sans";
     font-size: 30px;
+    font-weight: 300;
+    color: #5A5A5A;
 }
 
 .text{
 	font-size: 14px;
 	text-align: center;
-	font-family: Open sans;
+	font-family: "Open sans";
 	font-style: normal;
-	color: #7a7a7a;
+	color: #757575;		
+		
 }
 
 .container img {
@@ -109,3 +124,49 @@ h3 {
 	width: 50%;
     height: auto;
 }
+
+.textNewsletter{
+	text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #313131;
+    line-height: 22px;
+}
+
+.textEmail{
+	text-align: left;
+    font-family: Aller, Open sans;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #5B5B5B;
+}
+
+.inspire-se {	
+	color: #444444;	
+	font-family: Antonio;	
+	font-size: 24px;	
+	font-weight: bold;	
+	line-height: 80px;	
+	text-align: center;
+}
+
+.rectangle-5 {	
+	height: 47px;	
+	width: 320px;	
+	background-color: #FFFFFF;
+}
+
+.textGaleria {	
+	color: #5A5A5A;	
+	font-family: "Open Sans";	
+	font-size: 12px;	
+	text-align: center;
+}
+
+.layer{
+	width: 538px;
+}
+
